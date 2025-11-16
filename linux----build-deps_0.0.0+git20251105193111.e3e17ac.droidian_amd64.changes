@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 11 Nov 2025 15:57:53 +0000
+Source: linux----build-deps
+Binary: linux----build-deps
+Architecture: amd64
+Version: 0.0.0+git20251105193111.e3e17ac.droidian
+Distribution: unstable
+Urgency: low
+Maintainer: Equivs Dummy Package Generator <root@74df91cd9ec9>
+Changed-By: Equivs Dummy Package Generator <root@74df91cd9ec9>
+Description:
+ linux----build-deps - build-dependencies for linux---
+Changes:
+ linux----build-deps (0.0.0+git20251105193111.e3e17ac.droidian) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 7fb23a1e639cda974b1769adeea8dea6befb7627 4706 linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.buildinfo
+ fdce90a11dee9c2db7c2b2c0e7ff05a0adf33d14 2508 linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.deb
+Checksums-Sha256:
+ 47f274c9db405ac287a953bae27fc4443d6f1d28d9c8a9d6ddb98c06228a5786 4706 linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.buildinfo
+ e45aaf9fe458f554971b2f6ee87bfea270afc00b712acdedd64e5b5617cb945f 2508 linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.deb
+Files:
+ 32a7bce0cd5a9df4bf4e734fdee45e9a 4706 devel optional linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.buildinfo
+ 535d1221ab1f7c1a08f28cbc6a53bb1b 2508 devel optional linux----build-deps_0.0.0+git20251105193111.e3e17ac.droidian_amd64.deb
