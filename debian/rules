@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+include /usr/share/linux-packaging-snippets/kernel-snippet.mk
+
+BUILD_COMMAND := $(BUILD_COMMAND) CONFIG_BUILD_ARM64_DT_OVERLAY=y
+
+%:
+	dh $@

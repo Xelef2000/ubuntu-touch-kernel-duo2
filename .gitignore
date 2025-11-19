@@ -70,7 +70,6 @@ modules.order
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
 
 #
 # Snap directory (make snap-pkg)
@@ -149,3 +148,34 @@ x509.genkey
 
 # generated defconfigs
 out/*
+debian/linux-headers-5.4.233-microsoft-lahaina/*
+debian/linux-headers-5.4.233-microsoft-lahaina/usr/src/linux-headers-5.4.233-microsoft-lahaina/arch/nds32/Kconfig.cpu
+debian/files
+debian/debhelper-build-stamp
+debian/linux-bootimage-5.4.233-microsoft-lahaina.postinst
+debian/linux-bootimage-5.4.233-microsoft-lahaina.substvars
+debian/linux-bootimage-microsoft-lahaina.substvars
+debian/linux-headers-5.4.233-microsoft-lahaina.substvars
+debian/linux-headers-microsoft-lahaina.substvars
+debian/linux-image-5.4.233-microsoft-lahaina.postinst.debhelper
+debian/linux-image-5.4.233-microsoft-lahaina.postrm.debhelper
+debian/linux-image-5.4.233-microsoft-lahaina.substvars
+debian/linux-image-5.4.233-microsoft-lahaina/*
+debian/path-override/python2
+debian/linux-image-microsoft-lahaina/*
+debian/linux-image-microsoft-lahaina.substvars
+debian/linux-bootimage-5.4.233-microsoft-lahaina/boot/boot.img-5.4.233-microsoft-lahaina
+debian/linux-bootimage-5.4.233-microsoft-lahaina/boot/dtbo.img-5.4.233-microsoft-lahaina
+debian/linux-bootimage-5.4.233-microsoft-lahaina/boot/recovery.img-5.4.233-microsoft-lahaina
+debian/linux-bootimage-5.4.233-microsoft-lahaina/boot/vbmeta.img-5.4.233-microsoft-lahaina
+debian/linux-bootimage-5.4.233-microsoft-lahaina/DEBIAN/md5sums
+debian/linux-bootimage-5.4.233-microsoft-lahaina/DEBIAN/postinst
+debian/linux-bootimage-5.4.233-microsoft-lahaina/DEBIAN/control
+debian/linux-bootimage-microsoft-lahaina/DEBIAN/control
+debian/linux-bootimage-microsoft-lahaina/DEBIAN/md5sums
+debian/linux-bootimage-5.4.233-microsoft-lahaina/lib/flash-bootimage/5.4.233-microsoft-lahaina.conf
+debian/linux-headers-microsoft-lahaina/DEBIAN/control
+debian/linux-headers-microsoft-lahaina/DEBIAN/md5sums
+debian/path-override/python
+debian/path-override/python2.7
+debian/source/format

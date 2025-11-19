@@ -1,0 +1,6 @@
+linux-android-microsoft-lahaina (0.0.0+git20251116213314.1d65c50.droidian) trixie; urgency=medium
+
+  * droidian kernel build
+
+ -- Felix <felix@niederer.dev>  Sun, 16 Nov 2025 22:33:14 +0100
+
