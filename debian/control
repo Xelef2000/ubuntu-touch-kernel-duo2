@@ -25,7 +25,7 @@ Build-Depends: build-essential,
                mkdtboimg,
                avbtool,
                lz4,
-               clang-android-6.0-4691093, linux-initramfs-halium-generic:arm64, binutils-aarch64-linux-gnu, clang-android-12.0-r416183b
+               clang-android-6.0-4691093, clang-android-12.0-r416183b
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian-devices/linux-android-microsoft-lahaina
 Vcs-Git: https://github.com/droidian-devices/linux-android-microsoft-lahaina.git
