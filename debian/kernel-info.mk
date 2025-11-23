@@ -50,13 +50,12 @@ KERNEL_IMAGE_WITH_DTB_OVERLAY = 0
 KERNEL_IMAGE_WITH_DTB_OVERLAY_IN_KERNEL = 0
 
 # --- ACTIVE DTB SELECTION ---
-# Using the Source-built DTB 
-# KERNEL_BOOTIMAGE_DTB = /buildd/sources/out/KERNEL_OBJ/arch/arm64/boot/dts/vendor/qcom/lahaina-v2.1.dtb
-# KERNEL_IMAGE_DTB = arch/arm64/boot/dts/vendor/qcom/lahaina-v2.1.dtb
-# KERNEL_BOOTIMAGE_DTB = device/microsoft/surface-duo2/prebuilts/stock_duo2.dtb
-# KERNEL_IMAGE_DTB = device/microsoft/surface-duo2/prebuilts/stock_duo2.dtb
 
-KERNEL_BOOTIMAGE_DTB = device/microsoft/surface-duo2/prebuilts/stock_duo2.dtb
+# KERNEL_BOOTIMAGE_DTB = device/microsoft/surface-duo2/prebuilts/stock_duo2.dtb
+KERNEL_IMAGE_DTB = arch/arm64/boot/dts/vendor/qcom/lahaina-v2.1.dtb
+
+# Keep this as a fallback reference or if used by specific mkbootimg hooks
+KERNEL_BOOTIMAGE_DTB = arch/arm64/boot/dts/vendor/qcom/lahaina-v2.1.dtb
 # KERNEL_DTB = vendor/qcom/lahaina-v2.1.dtb
 
 # --- PREBUILT REFERENCES ---
